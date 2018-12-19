@@ -1,0 +1,11 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["react-app", "prettier", "airbnb-base"],
+  "rules": {
+    "jsx-quotes": [1, "prefer-double", "react-hooks/rules-of-hooks"],
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "indent": ["error", "tab"]
+  },
+  "plugins": ["prettier", "jsx-a11y", "react-hooks"]
+}
