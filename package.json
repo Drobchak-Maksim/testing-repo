@@ -71,6 +71,7 @@
   "lint-staged": {
     "*.{js, jsx}": [
       "prettier --write --tab-width 2 \"src/**/*.js\" \".babelrc\" \".eslintrc\" \".prettierrc\" \"package.json\"",
+      "eslint --fix",
       "git add"
     ]
   }
