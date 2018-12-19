@@ -61,17 +61,16 @@
     "prettier": "1.15.3",
     "prettier-eslint": "^8.8.2",
     "pretty-quick": "^1.7.0"
-   
+
   },
   "husky": {
-      "hooks": {  
+      "hooks": {
          "pre-commit": "lint-staged"
        }
      },
   "lint-staged": {
     "*.{js, jsx}": [
-      "yarn run pretty",
-      "prettier --write src/**/*.js",
+      "prettier --write --tab-width 2 \"src/**/*.js\" \".babelrc\" \".eslintrc\" \".prettierrc\" \"package.json\"",
       "git add"
     ]
   }
