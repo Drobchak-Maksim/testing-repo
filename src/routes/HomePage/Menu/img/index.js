@@ -32,5 +32,5 @@ export {
   Path295,
   Path299,
   agileNixIcon,
-  social,
+  social
 };

@@ -1,0 +1,26 @@
+diff a/src/routes/HomePage/Technologies/index.js b/src/routes/HomePage/Technologies/index.js	(rejected hunks)
+@@ -15,11 +15,13 @@ const Technologies = () => (
+-	<ContainerPage id='technologies'>
+-		{/* <DevGrid /> */}
+-		<BackgroundLogo />
+-		<main>
+-			<HeaderOfPage text='Technologies' />
+-			<HeadText>We ar best at</HeadText>
+-			<TechnologiesGrid>
+-				{ITEMS.map((item) => <Item key={item.id} {...item} />)}
+-			</TechnologiesGrid>
+-		</main>
+-	</ContainerPage>
++  <ContainerPage id='technologies'>
++    {/* <DevGrid /> */}
++    <BackgroundLogo />
++    <main>
++      <HeaderOfPage text='Technologies' />
++      <HeadText>We ar best at</HeadText>
++      <TechnologiesGrid>
++        {ITEMS.map((item) => (
++          <Item key={item.id} {...item} />
++        ))}
++      </TechnologiesGrid>
++    </main>
++  </ContainerPage>

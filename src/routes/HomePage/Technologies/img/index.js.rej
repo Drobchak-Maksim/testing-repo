@@ -1,0 +1,16 @@
+diff a/src/routes/HomePage/Technologies/img/index.js b/src/routes/HomePage/Technologies/img/index.js	(rejected hunks)
+@@ -10,7 +10,7 @@ export {
+-	logoECMAScript,
+-	logoGraphQL,
+-	logoHTML5,
+-	logoNoSQL,
+-	logoNodejs,
+-	logoReact,
+-	logoSQL
++  logoECMAScript,
++  logoGraphQL,
++  logoHTML5,
++  logoNoSQL,
++  logoNodejs,
++  logoReact,
++  logoSQL,
