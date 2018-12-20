@@ -12,12 +12,12 @@ export const ITEMS = [
   {
     id: 0,
     image: logoECMAScript,
-    title: 'JavaScriptsssssssssssssssssss'
+    title: 'JavaScript'
   },
   {
     id: 1,
     image: logoNodejs,
-    title: 'Node.ssssssssssssss'
+    title: 'Node.js'
   },
   {
     id: 2,
