@@ -16,7 +16,7 @@ import {
   Path293,
   Path289,
   Path295,
-  Path299,
+  Path299
 } from '../img';
 
 const Div = styled.div`
@@ -30,15 +30,15 @@ const Div = styled.div`
 
 const Image = styled.img`
   position: relatyve;
-  grid-column: ${(props) => props.column};
-  grid-row: ${(props) => props.row};
-  margin-top: ${(props) => props.top};
-  margin-left: ${(props) => props.left};
-  margin-right: ${(props) => props.right};
-  margin-bottom: ${(props) => props.bottom};
+  grid-column: ${props => props.column};
+  grid-row: ${props => props.row};
+  margin-top: ${props => props.top};
+  margin-left: ${props => props.left};
+  margin-right: ${props => props.right};
+  margin-bottom: ${props => props.bottom};
 `;
 const Splinters = () => (
-  <div style={{ height: 393 }}>
+  <div style={{height: 393}}>
     <Div>
       <Image column='1/3' row='1/4' top='-25px' src={Path286} alt='' />
 

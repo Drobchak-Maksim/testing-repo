@@ -5,48 +5,48 @@ import {
   logoNoSQL,
   logoNodejs,
   logoReact,
-  logoSQL,
+  logoSQL
 } from './img';
 
 export const ITEMS = [
   {
     id: 0,
     image: logoECMAScript,
-    title: 'JavaScript',
+    title: 'JavaScriptsssssssssssssssssss'
   },
   {
     id: 1,
     image: logoNodejs,
-    title: 'Node.js',
+    title: 'Node.ssssssssssssss'
   },
   {
     id: 2,
     image: logoReact,
-    title: 'React',
+    title: 'React'
   },
   {
     id: 3,
     image: logoGraphQL,
-    title: 'GraphQL',
+    title: 'GraphQL'
   },
   {
     id: 4,
     image: logoReact,
-    title: 'React Native',
+    title: 'React Native'
   },
   {
     id: 5,
     image: logoNoSQL,
-    title: 'NOSQL',
+    title: 'NOSQL'
   },
   {
     id: 6,
     image: logoSQL,
-    title: 'HTML',
+    title: 'HTML'
   },
   {
     id: 7,
     image: logoHTML5,
-    title: 'HTML',
-  },
+    title: 'HTML'
+  }
 ];

@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { ContainerPage, HeaderOfPage, BackgroundLogo } from '../../';
+import {ContainerPage, HeaderOfPage, BackgroundLogo} from '../../';
 import Article from './Article';
 
-import { Group52, Group53, Group54, ArticleImage } from './img';
+import {Group52, Group53, Group54, ArticleImage} from './img';
 import {
   AboutGrid,
   DevelopenArticle,
   StrategyArticle,
-  ConsultingArticle,
+  ConsultingArticle
 } from './style';
 
 const About = () => (

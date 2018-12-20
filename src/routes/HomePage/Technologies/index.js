@@ -1,12 +1,12 @@
 import React from 'react';
-import { ContainerPage, HeaderOfPage } from '../../';
+import {ContainerPage, HeaderOfPage} from '../../';
 
-import { ITEMS } from './items';
+import {ITEMS} from './items';
 import Item from './Item';
 
-import { TechnologiesGrid, HeadText } from './styles';
+import {TechnologiesGrid, HeadText} from './styles';
 
-import { BackgroundLogo } from '../../';
+import {BackgroundLogo} from '../../';
 
 // grid for dev.
 // import { DevGrid } from '../../';
@@ -19,7 +19,7 @@ const Technologies = () => (
       <HeaderOfPage text='Technologies' />
       <HeadText>We ar best at</HeadText>
       <TechnologiesGrid>
-        {ITEMS.map((item) => (
+        {ITEMS.map(item => (
           <Item key={item.id} {...item} />
         ))}
       </TechnologiesGrid>

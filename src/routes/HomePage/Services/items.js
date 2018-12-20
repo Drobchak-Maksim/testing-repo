@@ -14,8 +14,8 @@ export const ITEMS = [
       str1: 'Product management',
       str2: 'Agile processes',
       str3: 'Business analysis',
-      str4: 'Project management',
-    },
+      str4: 'Project management'
+    }
   },
   {
     id: 1,
@@ -25,8 +25,8 @@ export const ITEMS = [
       str1: 'Wireframing',
       str2: 'Prototyping',
       str3: 'Visual design',
-      str4: 'User interface design',
-    },
+      str4: 'User interface design'
+    }
   },
   {
     id: 2,
@@ -36,12 +36,12 @@ export const ITEMS = [
       str1: 'Architecture',
       str2: 'Front end engineering',
       str3: 'Back end engineering',
-      str4: 'API  engineering',
-    },
+      str4: 'API  engineering'
+    }
   },
   {
     id: 3,
-    image: servicesMin,
+    image: servicesMin
   },
 
   {
@@ -52,8 +52,8 @@ export const ITEMS = [
       str1: 'Cloud services',
       str2: 'System integration',
       str3: 'System analysis',
-      str4: 'Launch strategy',
-    },
+      str4: 'Launch strategy'
+    }
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ export const ITEMS = [
       str1: 'Automated testing',
       str2: 'Performance testing',
       str3: 'Process improvement',
-      str4: 'Test documentation',
-    },
-  },
+      str4: 'Test documentation'
+    }
+  }
 ];

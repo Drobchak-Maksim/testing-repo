@@ -13,5 +13,5 @@ export {
   logoNoSQL,
   logoNodejs,
   logoReact,
-  logoSQL,
+  logoSQL
 };

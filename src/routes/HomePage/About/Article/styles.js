@@ -17,7 +17,7 @@ export const ArticleText = styled.p`
   width: 304px;
   height: 92px;
   text-align: left;
-  color: ${(props) => props.textColor};
+  color: ${props => props.textColor};
 
   @media (max-width: 1100px) {
     width: 250px;

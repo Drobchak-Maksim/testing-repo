@@ -1,7 +1,7 @@
-import { createStore, applyMiddleware, compose } from 'redux';
-import { connectRouter, routerMiddleware } from 'connected-react-router';
+import {createStore, applyMiddleware, compose} from 'redux';
+import {connectRouter, routerMiddleware} from 'connected-react-router';
 import thunk from 'redux-thunk';
-import { createBrowserHistory, createMemoryHistory } from 'history';
+import {createBrowserHistory, createMemoryHistory} from 'history';
 import rootReducer from './reducers';
 
 // A nice helper to tell us if we're on the server
@@ -15,7 +15,7 @@ export default (url = '/') => {
   // Create a history depending on the environment
   const history = isServer
     ? createMemoryHistory({
-        initialEntries: [url],
+        initialEntries: [url]
       })
     : createBrowserHistory();
 
@@ -53,6 +53,6 @@ export default (url = '/') => {
 
   return {
     store,
-    history,
+    history
   };
 };

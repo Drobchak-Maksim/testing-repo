@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 
 import HomePage from './HomePage';
 import Menu from './HomePage/Menu';
@@ -16,21 +16,21 @@ import BackgroundLogo from '../components/BackgroundLogo';
 // grid from dev
 import DevGrid from '../components/DevGrid';
 
-export { ContainerPage, DevGrid, HeaderOfPage, BackgroundLogo };
+export {ContainerPage, DevGrid, HeaderOfPage, BackgroundLogo};
 
 const Landing = () => (
-	<HomePage className='home-page'>
-		<Menu />
-		<About />
-		<Services />
-		<Technologies />
-		<Portfolio />
-		<Hiring />
-		<Contact />
-	</HomePage>
+  <HomePage className='home-page'>
+    <Menu />
+    <About />
+    <Services />
+    <Technologies />
+    <Portfolio />
+    <Hiring />
+    <Contact />
+  </HomePage>
 );
 export default () => (
-	<Switch>
-		<Route exact path='/' component={Landing} />
-	</Switch>
+  <Switch>
+    <Route exact path='/' component={Landing} />
+  </Switch>
 );

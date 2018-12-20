@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Typed from 'typed.js';
 
 import './styles.css';
 
 class TypedReactDemo extends Component {
   componentDidMount() {
-    const { strings } = this.props;
+    const {strings} = this.props;
     // other options here, such as typing speed, back speed, etc.
     const options = {
       strings: strings,
       typeSpeed: 50,
-      backSpeed: 50,
+      backSpeed: 50
     };
     // this.el refers to the <span> in the render() method
     this.typed = new Typed(this.el, options);
@@ -27,8 +27,8 @@ class TypedReactDemo extends Component {
       <div className='wrap'>
         <div className='type-wrap'>
           <span
-            style={{ whiteSpace: 'pre' }}
-            ref={(el) => {
+            style={{whiteSpace: 'pre'}}
+            ref={el => {
               this.el = el;
             }}
           />
@@ -107,7 +107,7 @@ const About = () => (
 						</button>
 					</div>
 				);
-			}`,
+			}`
     ]}
   />
 );

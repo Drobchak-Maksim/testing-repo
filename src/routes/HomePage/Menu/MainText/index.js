@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react';
-import { StyleTextBlock, MarginSpan } from './styles';
+import React, {Fragment} from 'react';
+import {StyleTextBlock, MarginSpan} from './styles';
 import RedButton from '../../../../components/RedButton';
-const Span = ({ title }) => (
+const Span = ({title}) => (
   <Fragment>
     <MarginSpan>{title}</MarginSpan>
     <br />

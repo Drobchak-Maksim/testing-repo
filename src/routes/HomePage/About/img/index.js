@@ -4,4 +4,4 @@ import Group54 from './Group 54.svg';
 
 import ArticleImage from './about-us-min.png';
 
-export { Group52, Group53, Group54, ArticleImage };
+export {Group52, Group53, Group54, ArticleImage};
